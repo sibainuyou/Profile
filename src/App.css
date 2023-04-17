@@ -1,0 +1,49 @@
+html, body, p{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height:10000px;
+  background: #00FFCC;
+  transition: 1s;
+}
+
+html{
+  scroll-behavior: smooth; 
+  /* スムーススクロール */
+}
+
+.items ul{
+  padding : 0;
+}
+.items ul li{
+  list-style: none;
+  display: inline-block;
+  /* margin-left: 30px;
+  margin-right: 60px; */
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  /* background-color: red; */
+}
+
+.items ul li a{
+  display: inline-block;
+  padding: 5px 20px;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  justify-content: center;
+  /* background-color: blue; */
+}
+
+h1{
+  font-size: 75px;
+}
+h2{
+  font-size: 50px;
+}
+
+/* アニメーション参考 
+https://baigie.me/officialblog/2021/02/25/css-tips-1/ */
